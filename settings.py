@@ -1,6 +1,6 @@
 # Django settings for djangohelloworld project.
 
-DEBUG = True
+DEBUG = True 
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -117,7 +117,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'polls',
     # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
